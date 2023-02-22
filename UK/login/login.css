@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.kotak {
+    width: 450px;
+    height: 420px;
+    margin: auto;
+    top: 100px;
+    position: relative;
+    z-index: 13;
+    backdrop-filter: blur(15px);
+    background-color: white(0,9);
+    box-shadow:  0 0 40px rgba(8, 7, 16, 0.6);
+    border-radius: 14px;
+    border: 3px solid silver;
+}
+
+.background {
+    background-image: url("../foto/back.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+}
+
+.username {
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #D3D6DB;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 6px 5px;
+    margin-top: 20px;
+    margin-left: 65px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    border: 2px solid white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border: 2px solid black;
+}
+
+input:hover {
+    background-color: #D3D6DB;
+    color: black;
+}
+
+input:hover,
+input:active {
+    background-color: #D3D6DB;
+    color: black;
+}
+
+.img {
+    size: 10px;
+    padding-left: 36%;
+}
+
+button {
+    width: 20%;
+    padding: 9px;
+    margin-top: 20px;
+    margin-left: 40%;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    color: white;
+    background-color: #455D7A;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: #455D7A;
+    color: black;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #455D7A;
+    opacity: 0.8;
+    cursor: pointer;
+}

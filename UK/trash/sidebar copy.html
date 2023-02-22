@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+    <link rel="stylesheet" href="../sidebar/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="section">
+            
+            <div class="top_navbar">
+                <div class="hamburger">
+                    <a href="#">
+                        <h1>≡</h1>
+                    </a>      
+                </div>
+            </div>  
+        <!--buat diatas sidebar-->
+        <div class="sidebar">
+        <!--isian sidebar-->
+         <div class="profile">
+            <img src="..\foto\WhatsApp Image 2020-07-20 at 14.58.30.jpeg" alt="Profile_Picture">
+            <h3>Kanha Mahes</h3>
+            <p>Software Programmer</p>
+         </div>
+            <ul>
+                <li>
+                    <a href="..\crud\beranda.php" class="active">
+                        <span class="d"></span>
+                        <img src="..\foto\home-svgrepo-com.svg" alt="home" width="20px" height="20px">
+                        <span class="item">Beranda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active">
+                        <span class="d"></span>
+                        <img src="..\foto\data-quality-svgrepo-com (1).svg" alt="datasiswa" width="20px" height="20px">
+                        <span class="item">Data Siswa</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active">
+                        <span class="d"></span>
+                        <img src="..\foto\data-quality-svgrepo-com.svg" alt="datapetugas" width="20px" height="20px">
+                        <span class="item">Data Petugas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active">
+                        <span class="d"></span>
+                        <img src="..\foto\report-svgrepo-com.svg" alt="laporan" width="20px" height="20px">
+                        <span class="item">Laporan</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active">
+                        <span class="d"></span>
+                        <img src="..\foto\invoice-bill-svgrepo-com.svg" alt="pembayaran" width="20px" height="20px">
+                        <span class="item">Pembayaran</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active">
+                        <span class="d"></span>
+                        <img src="..\foto\card-coin-svgrepo-com.svg" alt="historypembayaran" height="20px" width="20px">
+                        <span class="item">History Pembayaran</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="active">
+                        <span class="d"></span>
+                        <img src="..\foto\logout-svgrepo-com.svg" alt="Logout" width="20px" height="20px">
+                        <span class="item">Logout</span>
+                    </a>
+                </li>
+            </ul>
+         </div>
+        </div>
+    </div>
+
+   
+   <script>
+    var hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click", function(){
+        document.querySelector("body").classList.toggle("active");
+    })
+   </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar</title>
+    <link rel="stylesheet" href="../sidebar/style.css">
+    <div class="wrapper">
+        <div class="section">
+
+            <div class="top_navbar">
+                <div class="hamburger">
+                      <img src="../../foto/menu.png" alt="" >
+                </div>
+                <a href="../../login/logout.php" class="logout">
+                    <img src="../../foto/poweroff.png" alt="">
+                </a>
+            </div>
+            <!--buat diatas sidebar-->
+            <div class="sidebar">
+                <!--isian sidebar-->
+                <div class="profile">
+                    <img src="../../foto/logo-smk.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="..\..\data\beranda.php">
+                                <span class="d"></span>
+                                <img src="..\../foto/home.svg" alt="home" width="20px" height="20px" color="#fffff">
+                                Beranda
+                            </a>
+                        </li>
+                       
+                        <li>
+                            <a href="#">
+                                <span class="d"></span>
+                                <img src="..\../foto\report-svgrepo-com.svg" alt="laporan" width="20px" height="20px">
+                                Laporan
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../../data/pembayaran.php">
+                                <span class="d"></span>
+                                <img src="..\../foto\invoice-bill-svgrepo-com.svg" alt="pembayaran" width="20px"
+                                    height="20px">
+                                Pembayaran
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="d"></span>
+                                <img src="..\../foto/bxs-bar-chart-alt-2.svg" alt="historypembayaran" height="20px"
+                                    width="20px">
+                                History Pembayaran
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <span class="d"></span>
+                                <a style="cursor:pointer;"><img src="..\../foto\data-quality-svgrepo-com.svg" value= "data" alt="datapetugas" width="20px"
+                                > Data </a>
+                                <div class="dropdown-content">
+                                <a href="../../data/datasiswa.php" style="color:black;">Data Siswa</a>
+                                <a href="../../data/pegawai.php" style="color:black;">Data Pegawai</a>
+                                <a href="../../data/datakelas.php" style="color:black;">Data Kelas</a>
+                                <a href="../../data/dataspp.php" style="color:black;">Data SPP</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </nav>            
+</head>
+<body>
+
+</body>
+<script>
+    var hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click", function () {
+        document.querySelector("body").classList.toggle("active");
+    })
+
+</script>
+
+</html>

@@ -1,0 +1,165 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f5f6fa;
+}
+
+body.active .wrapper .sidebar {
+  left: 0;
+}
+
+body.active .wrapper .section {
+  margin-left: 0;
+  width: 100%;
+}
+
+.wrapper .sidebar{
+  background: #313131;
+  position: fixed;
+  top: 0;
+  left: -20%;
+  width: 250px;
+  height: 100%;
+  padding: 70px 0;
+  transition: all 0.5s ease;
+  box-shadow: 8px 0 10px -6px #000000;
+  z-index: 100;
+}
+
+/*code dibawah untuk profile dan gambar*/
+.wrapper .sidebar .profile {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.wrapper .sidebar .profile img {
+  display: block;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h4 {
+  color: #D5CEA3;
+  margin: 7px 0 5px;
+}
+
+.wrapper .sidebar .profile p {
+  color: #D5CEA3;
+  margin: 10px 0 5px;
+  margin-bottom: 20px;
+}
+
+/*end dari profile pic*/
+
+/*code dibawah sebagai isi sidebar*/
+
+.wrapper .sidebar ul li a {
+  display: block;
+  padding: 10px 5px 10px 10px;
+  border-bottom: 1px solid #525252;
+  color: #D5CEA3;
+  font-size: 15px;
+  position: relative;
+}
+
+.wrapper .sidebar ul li a .d {
+  width: 13px;
+}
+
+.wrapper .sidebar ul li a:hover {
+  background-color: #E5E5CB;
+  border: 3px solid #3C2A21;
+  color:#1A120B;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.item{
+  color: #E5E5CB;
+}
+
+.item:hover{
+  color:black;
+  width: 100px;
+}
+
+/*end dari isian navbar*/
+
+/*hamburger*/
+.wrapper .section .top_navbar{
+  background: #313131;
+  height: 50px;
+  display: flex;
+  padding-left: 30px;
+  padding-top: 0;
+  position:fixed;
+  width: 100%;
+  transition: all 0.5s ease;
+  box-shadow: 0px 20px 25px -15px #111;   
+  z-index: 999;
+}
+
+
+.wrapper .section .top_navbar .hamburger img{
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+a.logout {  
+  margin-top: 5px;
+  cursor: pointer;
+  left: 92%;
+  position: relative;
+}
+.logout img{
+  width: 40px;
+  height: 40px;
+}
+.wrapper .section .top_navbar .hamburger:hover
+{
+  color: #D5CEA3;
+  opacity: 0.7;
+}
+.wrapper .section .top_navbar .logout:hover
+{
+  color: #D5CEA3;
+  opacity: 0.7;
+}
+
+
+/*perubahan meja dibawah*/
+.dropdown-content {
+  display: none;
+  min-width: 160px;
+  color: #000000;
+  margin: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  margin-bottom: 2px;
+  background-color: #E5E5CB;
+  border: 3px solid #3C2A21;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.dropdown-content a:hover {  
+  color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

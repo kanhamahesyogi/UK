@@ -1,0 +1,147 @@
+/*palletes
+#3C2A21
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.background{
+    background-color:#525252;
+    height: 100%;
+    padding-bottom: 100%;
+}
+span{
+position: absolute;
+padding-top: 10px;
+padding-left: 10px;
+font-style:italic;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: smaller;
+color: #E5E5CB;
+}
+
+.luarkotak1{
+    background-color: #1A120B;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top:30px;
+    width: 93%;
+    height:50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+    
+    .luarkotak1 h3{
+        color: #E5E5CB;
+        padding-left: 10px;
+        padding-top:15px;
+    }
+    
+    .kotak1{
+        width: 93%;
+        height: auto;
+        padding-bottom: 5px;
+        margin-left: 3%;
+        margin-right: 3%;
+        border-bottom-left-radius:5px ;
+        border-bottom-right-radius:5px ;
+        background-color: #3C2A21;
+    }
+    
+    .dalamkotak{
+        height: auto;
+        margin-left: 6px;
+        background-color: #D5CEA3;
+        border-bottom-left-radius:4px;
+        border-bottom-right-radius:4px;
+        width: 99%;
+    }
+
+    tr, th{
+        border: 2px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+    td{
+        border: 1px solid black;
+        text-align: center;
+    }
+
+    .max{
+        max-width: 350px;
+        overflow-wrap: break-word;
+    }
+    .maxid{
+    max-width: 120px;
+        overflow-wrap: break-word;
+}
+.maxnama{
+    max-width: 200px;
+        overflow-wrap: break-word;
+}
+    table{
+        width: 100%;
+        border: 2px solid black;
+        border-bottom-left-radius:4px;
+        border-bottom-right-radius:4px;
+        border-collapse: collapse;
+    }
+
+    .tombol-delete{
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #3C2A21;
+        color: red;
+        background-color: #3C2A21;
+    }
+    .tombol-update{
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 1px solid #3C2A21;
+        color: lightskyblue;
+        background-color: #3C2A21;
+    }
+    .tombol-delete:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    }
+    .tombol-update:hover{
+        opacity: 0.8;
+        cursor: pointer;
+        }
+    .insert{
+        height: 30px;
+        font-size:15PX ;
+        position: absolute;
+        width: 90px;
+        margin-left: 88%;
+        margin-top: 40px;
+        border-radius: 8px;
+        border-color: #D5CEA3;
+        background-color: #4CAF50;
+        color:white;
+    }
+    .insert:hover{
+        opacity: 0.9;
+        cursor: pointer;
+    }
+
+    .insert:active{
+        opacity: 0.8;
+        background-color: #4CAF50;
+        cursor: pointer;
+    }
